@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "install": "npm install",
-    "update": "npm update",
+    "update": "npm update"
   },
   "dependencies": {
     "isotope-layout": "^3.0.6",
