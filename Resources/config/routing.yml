@@ -1,0 +1,3 @@
+home_stylee_homepage:
+    path:     /
+    defaults: { _controller: HomeStyleeBundle:Default:index }

@@ -1,0 +1,15 @@
+{
+  "name": "stylee-bundle",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "install": "npm install",
+    "update": "npm update",
+  },
+  "dependencies": {
+    "isotope-layout": "^3.0.6",
+    "isotope-packery": "^2.0.1",
+    "imagesloaded": "^4.1.4",
+    "jquery-ui": "^1.12.1"
+  }
+}

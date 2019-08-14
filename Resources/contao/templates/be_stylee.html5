@@ -1,0 +1,18 @@
+<div id="tl_buttons">
+    <a href="<?= $this->href ?>" class="header_back" title="<?= $this->title ?>"><?= $this->button ?></a>
+</div>
+
+<div class="maintenance_inactive">
+    <h2 class="sub_headline">Stylee</h2>
+    <?php if($this->notFound && is_array($this->notFound) && count($this->notFound) > 0): ?>
+        <h2 class="sub_headline">Nicht gefundene Dateien</h2>
+        <ul class="tl_empty">
+        <?php foreach ($this->notFound as $file): ?>
+            <li><?= $file ?></li>
+        <?php endForEach; ?>
+        </ul>
+    <?php else: ?>
+        <p class="tl_empty">Dateien von "node_modules" nach "public" kopiert.</p>
+    <?php endif; ?>
+</div>
+
