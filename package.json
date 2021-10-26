@@ -10,6 +10,6 @@
     "isotope-layout": "^3.0.6",
     "isotope-packery": "^2.0.1",
     "imagesloaded": "^4.1.4",
-    "jquery-ui": "^1.12.1"
+    "jquery-ui": "^1.13.0"
   }
 }
